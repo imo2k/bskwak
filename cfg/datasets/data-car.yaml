@@ -1,0 +1,18 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../dataSets/car/  # dataset root dir 
+train: train/images  # train images (relative to 'path') 
+val: valid/images  # val images (relative to 'path') 
+test: test  # optional
+
+# Classes
+nc: 75      
+
+# label names
+names: [
+'plate', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+'가', '나', '다', '라', '마', '거', '너', '더', '러', '머', '버', '서', '어', '저', 
+'고', '노', '도', '로', '모', '보', '소', '오', '조', 
+'구', '누', '두', '루', '무', '부', '수', '우', '주', 
+'바', '사', '아', '자', '기타', '허', '하', '호', '기타', '기타', '기타', '기타', '기타', '기타', 
+'합참', '육', '해', '공', 
+'강원', '전남', '전북', '충남', '충북', '서울', '부산', '대구', '인천', '광주', '경기', '제주', '경북', '경남' ] 
